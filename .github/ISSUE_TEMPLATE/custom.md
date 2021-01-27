@@ -1,4 +1,4 @@
-### Improvement request
-Suggeat us to improvement for this project
+## Custom issue template
+Describe this issue template's purpose here.
 
 
