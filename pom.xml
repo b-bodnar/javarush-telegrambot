@@ -15,6 +15,7 @@
 	<description>Telegram bot for Javarush</description>
 	<properties>
 		<java.version>11</java.version>
+		<telegramboot.starter.version>5.0.1</telegramboot.starter.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -26,6 +27,16 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.telegram</groupId>
+			<artifactId>telegrambots-spring-boot-starter</artifactId>
+			<version>${telegramboot.starter.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-configuration-processor</artifactId>
+			<optional>true</optional>
 		</dependency>
 	</dependencies>
 

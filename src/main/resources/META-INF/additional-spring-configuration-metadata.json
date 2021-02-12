@@ -1,0 +1,13 @@
+{
+  "properties": [
+    {
+      "name": "bot.username",
+      "type": "java.lang.String",
+      "description": "This is username for telegram bot."
+    },
+    {
+      "name": "bot.token",
+      "type": "java.lang.String",
+      "description": "Use this token to access the HTTP telegram API."
+    }
+  ] }
