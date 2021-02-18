@@ -10,11 +10,11 @@
 	</parent>
 	<groupId>com.github.bbodnar.telegrambot</groupId>
 	<artifactId>javarush-telegrmabot</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.2.0-SNAPSHOT</version>
 	<name>Javarush TelegramBot</name>
 	<description>Telegram bot for Javarush</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>13</java.version>
 		<telegramboot.starter.version>5.0.1</telegramboot.starter.version>
 	</properties>
 	<dependencies>
@@ -36,8 +36,14 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-configuration-processor</artifactId>
-			<optional>true</optional>
 		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.18</version>
+			<scope>provided</scope>
+		</dependency>
+
 	</dependencies>
 
 	<build>
